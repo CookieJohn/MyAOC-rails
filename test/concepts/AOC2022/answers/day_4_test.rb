@@ -5,8 +5,11 @@ class Day4Test < ActiveSupport::TestCase
     @klass = AOC2022::Answers::Day4
   end
 
-  test 'test' do
+  test 'test_1' do
     assert_equal 494, @klass.ans_1
+  end
+
+  test 'test_2' do
     assert_equal 833, @klass.ans_2
   end
 end
